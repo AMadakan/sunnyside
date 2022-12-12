@@ -1,0 +1,24 @@
+style {}
+
+nav {
+    background-blend-mode: luminosity
+}
+
+p {
+    background-color: linen;
+    width: 300px;
+    border: 15px solid aquamarine;
+    padding: 50px;
+    margin: 20px;
+    background-color: darkslategrey;
+}
+
+main {
+    width: 70px;
+    height: 300px;
+    border: 1px solid;
+    display: flex;
+    flex-wrap: wrap
+}
+
+div {}
