@@ -23,4 +23,19 @@ main {
     flex-wrap: wrap
 }
 
-div {}
+#egg {
+    background-image: url("./Desktop/image-transform.jpg");
+    background-color: #cccccc;
+    width: 50%;
+    height: 500px;
+}
+
+#flex {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.TransformYourBrand {
+    width: 50%;
+}
