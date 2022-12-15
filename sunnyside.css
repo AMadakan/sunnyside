@@ -1,19 +1,8 @@
-style {
-    background-image: ;
-}
+style {}
 
-nav {
-    background-blend-mode: luminosity
-}
+nav {}
 
-p {
-    background-color: linen;
-    width: 300px;
-    border: 15px solid beige;
-    padding: 50px;
-    margin: 20px;
-    background-color: whitesmoke;
-}
+p {}
 
 main {
     width: 70px;
@@ -38,4 +27,25 @@ main {
 
 .TransformYourBrand {
     width: 50%;
+}
+
+#cup {
+    background-image: url("./Desktop/image-stand-out.jpg");
+    background-color: #cccccc;
+    width: 50%;
+    height: 500px;
+}
+
+#cherry {
+    background-image: url("./Desktop/image-graphic-design.jpg");
+    background-color: #cccccc;
+    width: 50%;
+    height: 500px;
+}
+
+#orange {
+    background-image: url("./Desktop/image-photography.jpg");
+    background-color: #cccccc;
+    width: 50%;
+    height: 500px;
 }
