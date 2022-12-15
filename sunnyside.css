@@ -1,4 +1,14 @@
-style {}
+.header {
+    text-align: center;
+}
+
+.title {
+    text-align: center;
+}
+
+.nav-bar {
+    text-align: center;
+}
 
 nav {}
 
