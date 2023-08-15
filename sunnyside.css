@@ -19,6 +19,9 @@
     
     header {
         background-image: url(images/image-header.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
         background-size: cover;
         height: 800px;
         width: auto;
@@ -27,6 +30,7 @@
     nav {
         display: block;
         background-color: #3fbfff;
+        position: sticky;
         padding: 10px;
         top: 12px;
     }
