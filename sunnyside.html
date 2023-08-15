@@ -5,107 +5,168 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="sunnyside.css">
+    <link rel="stylesheet" href="(https://fonts.google.com/specimen/Barlow)">
     <div class="title">
         <title>Sunnyside</title>
     </div>
-    </div>
-
-    <link rel="stylesheet" href="sunnyside.css">
-    <header>
-        <div class="nav-bar">
-            <div class="logo">
-                <a href="#">
-                    <img src="./Desktop/image-header.jpg">
-                </a>
-            </div>
-        </div>
-    </header>
-    <nav class="flex">
-        <div>
-            <button>
-                <a>Sunnyside</a>
-            </button>
-            <button>
-                <a>About</a>
-            </button>
-            <button>
-                <a>Services</a>
-            </button>
-            <button>
-                <a>Projects</a>
-            </button>
-            <button>
-                <a>Contracts</a>
-            </button>
-            <hr>
-
-        </div>
-        <h1 style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; font-size: 60px;"></h1> We Are Creatives</h1>
-
-        <br>
-        <div>
-            <footer>
-                <button>
-                <a>About</a>
-            </button>
-                <button>
-                <a>Services</a>
-            </button>
-                <button>
-                <a>Projects</a>
-            </button>
-            </footer>
-
-        </div>
-    </nav>
 </head>
 
-
 <body>
-    <div id="flex">
-        <div class="TransformYourBrand">
-            <h2>Transform Your Brand</h2>
-            <p>We are a full-service creative agency specializing in helping brands grow fast. Engage your clients through compelling visuals that do most of the marketing for you.</p>
-            <button><strong>Learn More</strong></button>
-
+    <header>
+        <div class="nav-container">
+            <img class="logo" src="images/logo.svg">
+            <nav>
+                <a href="#">
+                    About
+                </a>
+                <a href="#">
+                    Services
+                </a>
+                <a href="#">
+                    Projects
+                </a>
+                <a href="#" class="active">
+                    Contact
+                </a>
+            </nav>
         </div>
-        <div id="egg"></div>
+
+        <div class="head-content">
+            <h1>WE ARE CREATIVES</h1>
+            <img class="arrow" src="images/icon-arrow-down.svg">
+        </div>
+
+    </header>
+
+    <div class="grid-container">
+        <div class="grid-item-content">
+            <div class="item-content">
+                <h3>Transform Your Brand</h3>
+                <p>We are a full-service creative agency specializing in helping brands grow fast. Engage your clients through compelling visuals that do most of the marketing for you.</p>
+                <a class="link">LEARN MORE</a>
+            </div>
+        </div>
+        <div class="grid-item-img" style="background-image: url(images/image-transform.jpg);">
+        </div>
+
+        <div class="grid-item-img" style="background-image: url(images/image-stand-out.jpg);">
+            <img src="image-stand-out.jpg" alt="cup">
+        </div>
+        <div class="grid-item-content">
+            <div class="item-content">
+                <h3>Standout to the right audience.</h3>
+                <p>Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters. We'll build and extend your brand in digital places.</p>
+                <a class="link">LEARN MORE</a>
+            </div>
+        </div>
+        <div class="grid-item-img" style="background-image: url(images/image-graphic-design.jpg);">
+            <div class="item-content-2">
+                <h3>Graphic Design</h3>
+                <p>
+                    Great designs make you memorable. We deliver artwork that underscores your brand message and captures potential clients' attention.
+                </p>
+            </div>
+        </div>
+        <div class="grid-item-img" style="background-image: url(images/image-photography.jpg);">
+            <div class="item-content-2">
+                <h3>Photography</h3>
+                <p>
+                    Increase your credibility by getting the most stunning, high quality photos that improve your business image.
+                </p>
+            </div>
+        </div>
     </div>
-    <div id="flex">
-        <div class="StandOutToTheRightAudience">
-            <h2>Stand Out To The Right Audience</h2>
-            <p>Using a collaborative formula of designers, researchers, photographers, videographers and copywriters, we'll build and extend your brand in digital places.</p>
-            <button><strong>Learn More</strong></button>
+
+
+    <div class="testimonial">
+        <h3 style="font-family: url(https://fonts.google.com/specimen/Barlow)">CLIENT TESTIMONIALS</h3>
+        <div class="client-reviews">
+            <div>
+                <img src="images/image-emily.jpg" style="border-radius: 100px;" width="70px">
+                <p style="font-size: smaller;">
+                    We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always hit.
+                </p>
+                <p style="font-weight: bolder; font-size: medium;">
+                    Emily R.
+                    <p style="font-weight: bolder; font-size: x-small; src: url(https://fonts.google.com/specimen/Barlow);">
+                        Marketing Director
+                    </p>
+                </p>
+            </div>
+            <div>
+                <img src="images/image-thomas.jpg" style="border-radius: 100px;" width="70px">
+                <p style="font-size: smaller;">
+                    Sunnyside's enthusiasm coupled with their keen interest in our brands success made it a satisfying and enjoyable experience.
+                </p>
+                <p style="font-weight: bolder; font-size: medium;">
+                    Thomas S.
+                </p>
+                <p style="font-weight: bolder; font-size: x-small;">
+                    Chief Operating Officer.
+                </p>
+            </div>
+            <div>
+                <img src="images/image-jennie.jpg" style="border-radius: 100px;" width="70px">
+                <p style="font-size: smaller;">
+                    Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly recommended!
+                </p>
+                <p style="font-weight: bolder; font-size: medium;">
+                    Jennie F.
+                </p>
+                <p style="font-weight: bolder; font-size: x-small;">
+                    Business Owner.
+                </p>
+            </div>
         </div>
-        <div id="cup"></div>
 
     </div>
-    <div id="flex">
-        <div class="GraphicDesign">
-            <h3>Graphic Design</h3>
-            <p>Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients' attention.</p>
-        </div>
-        <div id="cherry"></div>
 
-    </div>
-    <div id="flex">
-        <div class="Photography">
-            <h3>Photography</h3>
-
-        </div>
-        <div id="orange">
-            <p>Increase your credibility by getting the most stunning, high quality photos that improve your business image.</p>
-
-        </div>
-
+    <div class="gallery">
+        <img src="images/image-gallery-milkbottles.jpg" alt="image-gallery-milkbottles">
+        <img src="images/image-gallery-orange.jpg" alt="image-gallery-orange">
+        <img src="images/image-gallery-cone.jpg" alt="image-gallery-cone">
+        <img src="images/image-gallery-sugarcubes.jpg" alt="image-gallery-sugarcubes">
     </div>
 
+    <footer>
+        <div class="footer-content">
+            <h2>
+                Sunnyside
+            </h2>
+            <div class="bottom-nav">
+                <p>
+                    <a href="#">
+                        About
+                    </a>
+                </p>
+                <p>
+                    <a href="#">
+                        Services
+                    </a>
+                    <p>
+                        <a href="#">
+                            Projects
+                        </a>
+                    </p>
+            </div>
 
+            <div class="icons">
+                <img src="images/icon-facebook.svg" alt="icon-facebook">
+                <img src="images/icon-instagram.svg" alt="icon-instagram">
+                <img src="images/icon-twitter.svg" alt="icon-twitter">
+                <img src="images/icon-pinterest.svg" alt="icon-pinterest">
+            </div>
 
+        </div>
 
-    <footer>Client Testimonials</footer>
-
-
+    </footer>
 </body>
+
+
+
+
+
+
 
 </html>

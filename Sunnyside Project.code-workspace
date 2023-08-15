@@ -1,0 +1,13 @@
+{
+    "folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../../../Downloads/sunnyside-agency-landing-page-main 2/images/desktop"
+		}
+	],
+    "settings": {
+        "liveServer.settings.multiRootWorkspaceName": "Sunnyside Project"
+    }
+}
