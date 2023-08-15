@@ -2,19 +2,14 @@
         margin: 0;
     }
     
-    p {
-        font-family: fraunces;
-        /* font-weight: 800; */
+    @font-face {
+        font-family: myfont;
+        src: url(fonts/CocoBiker\ Regular\ Trial.ttf);
     }
     
     @font-face {
-        font-family: barlow;
-        src: url("https://fonts.google.com/specimen/Barlow");
-    }
-    
-    @font-face {
-        font-family: fraunces;
-        src: url("https://fonts.google.com/specimen/Fraunces");
+        font-family: myfont2;
+        src: url(fonts/Space\ Game.ttf);
     }
     
     header {
@@ -79,6 +74,7 @@
         text-align: center;
         color: white;
         font-stretch: extra-expanded;
+        font-family: myfont;
     }
     
     .arrow {
@@ -128,6 +124,10 @@
         /* font-family: ; */
     }
     
+    .testimonial h3 {
+        font-family: myfont2;
+    }
+    
     .client-reviews {
         display: flex;
         text-align: center;
@@ -159,12 +159,14 @@
         margin-right: auto;
         margin-left: auto;
         padding: 70px;
+        font-family: myfont;
     }
     
     .footer-content h2 {
         color: #26715f;
         font-weight: bolder;
         font-size: xx-large;
+        font-family: myfont;
         /* padding-top: 150px; */
     }
     
