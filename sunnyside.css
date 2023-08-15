@@ -125,7 +125,7 @@
     }
     
     .testimonial h3 {
-        font-family: myfont2;
+        font-family: myfont;
     }
     
     .client-reviews {
@@ -159,7 +159,6 @@
         margin-right: auto;
         margin-left: auto;
         padding: 70px;
-        font-family: myfont;
     }
     
     .footer-content h2 {
